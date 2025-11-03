@@ -176,7 +176,9 @@ body {
 body {
   letter-spacing: var(--tracking-normal);
 }
-
+button{
+  cursor: pointer;
+}
 @layer base {
   * {
     @apply border-border outline-ring/50;

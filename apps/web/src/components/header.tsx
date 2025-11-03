@@ -78,38 +78,38 @@ export default function Header() {
           <nav className="text-primary hidden md:flex items-center gap-6">
             <button
               onClick={() => scrollToSection("#hero")}
-              className="p-3 py-1.5  font-medium text-primary transition-colors hover:bg-amber-500 rounded-full"
+              className="p-3 py-1.5  font-medium text-primary transition-colors hover:bg-amber-500 hover:text-black rounded-full"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection("#about")}
-              className="font-medium text-primary transition-colors hover:bg-amber-500 rounded-full px-3 py-1.5"
+              className="font-medium text-primary transition-colors hover:bg-amber-500 hover:text-black rounded-full px-3 py-1.5"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection("#technologies")}
-              className="font-medium text-primary transition-colors hover:bg-amber-500 rounded-full px-3 py-1.5"
+              className="font-medium text-primary transition-colors hover:bg-amber-500 hover:text-black rounded-full px-3 py-1.5"
             >
               Technologies
             </button>
             <button
               onClick={() => scrollToSection("#services")}
-              className="font-medium text-primary transition-colors hover:bg-amber-500 rounded-full px-3 py-1.5 "
+              className="font-medium text-primary transition-colors hover:bg-amber-500 hover:text-black rounded-full px-3 py-1.5 "
             >
               Services
             </button>
             <button
               onClick={() => scrollToSection("#contact")}
-              className="font-medium text-primary transition-colors hover:bg-amber-500 rounded-full px-3 py-1.5"
+              className="font-medium text-primary transition-colors hover:bg-amber-500 hover:text-black rounded-full px-3 py-1.5"
             >
               Contact
             </button>
             <a href="/training#training-courses"
 
 
-              className="font-medium text-primary transition-colors hover:bg-amber-500 rounded-full px-3 py-1.5"
+              className="font-medium text-primary transition-colors hover:bg-amber-500 hover:text-black rounded-full px-3 py-1.5"
             >
               Training
             </a>
