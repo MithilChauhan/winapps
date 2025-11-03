@@ -8,6 +8,7 @@ export function Contact() {
     name: "",
     email: "",
     subject: "",
+    phone: "",
     message: ""
   });
 
@@ -27,6 +28,7 @@ export function Contact() {
       [e.target.id]: e.target.value
     });
   };
+
   return (
     <section id="contact" className="py-20 bg-white relative">
       {/* Shapes */}
@@ -70,7 +72,7 @@ export function Contact() {
             <div className="space-y-12">
               <div>
                 <h4 className="text-lg font-semibold text-gray-800 mb-2">
-                  Email Address
+                  Sales Inquiries
                 </h4>
                 <p>
                   <a
@@ -81,14 +83,14 @@ export function Contact() {
               </div>
               <div>
                 <h4 className="text-lg font-semibold text-gray-800 mb-2">
-                  Microsoft Teams
+                General Inquiries
                 </h4>
                 <p>
                   <a
-                    href="skype:winapps.support?chat"
+                    href="mailto:info@winapps.co.in"
                     className="text-primary hover:underline"
                   >
-                    contractor.winapps
+                    info@winapps.co.in
                   </a>
                 </p>
               </div>
@@ -150,7 +152,7 @@ export function Contact() {
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
-                  <Label htmlFor="name">Name</Label>
+                  <Label className="mb-1" htmlFor="name">Name</Label>
                   <Input
                     type="text"
                     id="name"
@@ -161,7 +163,7 @@ export function Contact() {
                   />
                 </div>
                 <div>
-                  <Label htmlFor="email">Email</Label>
+                  <Label className="mb-1" htmlFor="email">Email</Label>
                   <Input
                     type="email"
                     id="email"
@@ -172,9 +174,26 @@ export function Contact() {
                   />
                 </div>
               </div>
+              <div>
+                <Label className="mb-1" htmlFor="phone">Phone Number</Label>
+                <Input
+                  type="text"
+                  id="phone"
+                  placeholder="Phone Number"
+                  value={formData.phone}
+                  onChange={(e) => {
+                    // Allow only digits
+                    if (/^\d*$/.test(e.target.value)) {
+                      handleChange(e);
+                    }
+                  }}
+                  required
+                />
+              </div>
+
 
               <div>
-                <Label htmlFor="subject">Subject</Label>
+                <Label className="mb-1" htmlFor="subject">Subject</Label>
                 <Input
                   type="text"
                   id="subject"
@@ -186,7 +205,7 @@ export function Contact() {
               </div>
 
               <div>
-                <Label htmlFor="message">Message</Label>
+                <Label className="mb-1" htmlFor="message">Message</Label>
                 <textarea
                   placeholder="Message"
                   rows={4}

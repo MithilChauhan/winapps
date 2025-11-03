@@ -33,31 +33,31 @@ const trainingCourses = [
     name: "CMS Development",
     description: "Build and manage content management systems with WordPress, Drupal, and custom solutions",
     logo: "/images/cms.png",
-    pdf: "cms-training.pdf"
+    pdf: "cms.pdf"
   },
   {
     name: "Next.js Development",
     description: "Modern React framework for server-side rendering and static site generation",
     logo: "/images/nextjs.png",
-    pdf: "nextjs-training.pdf"
+    pdf: "nextjs.pdf"
   },
   {
     name: "Node.js Development",
     description: "Server-side JavaScript development with Node.js, Express, and modern backend technologies",
     logo: "/images/nodejs.png",
-    pdf: "nodejs-training.pdf"
+    pdf: "nodejs.pdf"
   },
   {
     name: "PHP Development",
     description: "Server-side web development with PHP, Laravel, and modern PHP frameworks",
     logo: "/images/php.png",
-    pdf: "php-training.pdf"
+    pdf: "php.pdf"
   },
   {
     name: "Digital Marketing",
     description: "Comprehensive digital marketing strategies including SEO, SEM, social media, and content marketing",
     logo: "/images/digital-marketing.png",
-    pdf: "digital-marketing-training.pdf"
+    pdf: "seo-digital-marketning.pdf"
   },
   {
     name: "AI Development",

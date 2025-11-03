@@ -47,7 +47,7 @@ export function CTA() {
                     Winapps also offers customized website design solutions, comprehensive web development services, and top-notch digital marketing services in Haryana. They validate and verify software applications to ensure a smooth user experience and avoid costly rework.
                   </p>
                   <p>
-                    Additionally, Winapps provides game development services for various platforms and expertise in PHP, .NET, e-commerce, and cloud computing.
+                    Additionally, Winapps provides game development, AI development services for various platforms and expertise in PHP, Android, IOS development, .NET, e-commerce, and cloud computing.
                   </p>
                 </div>
 
