@@ -66,7 +66,7 @@ export default function Footer() {
                       <li>
                         <h4 className="font-semibold text-lg mb-2">Sales Inquiries</h4>
                         <a href="mailto:sales@winapps.co.in" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
-                          sales@winapps.co.in (E-mail)
+                          sales@winapps.co.in
                         </a>
                       </li>
                       {/* <li>
@@ -85,7 +85,7 @@ export default function Footer() {
                     <li>
                       <h4 className="font-semibold text-lg mb-2">Training Inquiries</h4>
                       <a href="mailto:training@winapps.co.in" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
-                        training@winapps.co.in (E-mail)
+                        training@winapps.co.in
                       </a>
                     </li>
 
@@ -95,7 +95,7 @@ export default function Footer() {
                 <li>
                   <h4 className="font-semibold text-lg mt-5 mb-2">General Inquiries</h4>
                   <a href="mailto:info@winapps.co.in" className="text-gray-400 hover:text-white" target="_blank" rel="noopener noreferrer">
-                    info@winapps.co.in (E-mail)
+                    info@winapps.co.in
                   </a>
                 </li>
               </ul>
